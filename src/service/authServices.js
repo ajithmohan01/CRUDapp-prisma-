@@ -1,8 +1,8 @@
 import bcrypt from "bcrypt";
 import db from "../config/db.js";
 import { response } from "../utils/common.js";
-import { hashToken } from "../utils/jwt.js";
-import { generateTokens } from "../utils/jwt.js";
+
+
 
 class AuthServices {
   

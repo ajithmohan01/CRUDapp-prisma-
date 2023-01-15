@@ -3,7 +3,6 @@ import cors from "cors";
 import * as dotenv from 'dotenv';
 import express from "express";
 import morgan from "morgan";
-import version from './controllers/versionController.js';
 import auth from './controllers/authcontroller.js';
 import user from './controllers/userController.js';
 
